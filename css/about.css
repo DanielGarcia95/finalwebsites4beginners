@@ -1,0 +1,54 @@
+/*body{*/
+    /*background-color: #32404e; rock color*/
+/*}*/
+
+.about-text{
+    height: 41px;
+    width: 369px;
+    display: inline-block;
+    margin-top: 59px;
+    margin-left: 418px;
+    background-color: #689681; /*soft green*/
+    line-height: 42px;
+    text-align: center;
+    border: 4px solid #1d8df0; /*twitter blue*/
+    font-weight: bolder;
+    box-shadow: 2px 2px white;
+    border-radius: 6px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    height: 515px;
+    margin-top: 25px;
+}
+
+.about-col{
+    width: 30%;
+    height: 435px;
+    border: 4px solid #1d8df0; /*twitter blue*/
+    float: left;
+    margin-left: 24px;
+    text-align: center;
+    background-color: #ede5ce; /*beige*/
+}
+
+.about-col p{
+    text-align: justify;
+    padding: 15px 10px;
+}
+
+.pre{
+    white-space: pre-wrap;
+}
+
+.pic{
+    height: 150px;
+    width: 300px;
+}
+
+.pic, .audio, .video{
+    margin-top: 20px;
+}
+

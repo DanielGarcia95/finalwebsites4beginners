@@ -1,0 +1,154 @@
+body{
+    margin: 0 auto;
+    background-color: #32404e; /*rock color*/
+    /*font-family: 'Oswald', sans-serif;*/
+}
+
+.nav-bar{
+    /*background-color: rgb(33, 53, 72); Deep blue*/
+    background-color: #689681; /*soft green*/
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+    /*position: fixed;*/
+    z-index: 1;
+}
+
+.logo{
+    height: 148px;
+    width: 169px;
+}
+
+.nav-list{
+    float: right;
+    margin-top: 72px;
+    /*margin-right: 413px;*/
+}
+
+.list-item{
+    list-style-type: none;
+    margin-top: 26px;
+    margin-right: 23px;
+    background-color: #1d8df0; /*twitter blue*/
+    display: inline-block;
+    height: 19px;
+    width: 113px;
+    font-size: medium;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 6px;
+}
+
+.list-item a{
+    color: white;
+}
+
+/*img{*/
+/*    width: 100px;*/
+/*    height: 80px;*/
+/*}*/
+
+.list-item a{
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url('../img/banner-mtns.jpg');
+    background-size: cover; 
+    background-position: center;
+    /*background-position: 20px 100px;*/
+    /*background-repeat: no-repeat;*/
+    height: 400px;
+    width: 100%;
+    /*position: relative;*/
+}
+
+.banner-text{
+    height: 33px;
+    width: 355px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 672px;
+    background-color: #689681; /*soft green*/
+    line-height: 0px;
+    text-align: center;
+    border: 4px solid #1d8df0; /*twitter blue*/
+    font-weight: bolder;
+    box-shadow: 2px 2px white;
+    border-radius: 6px;
+}
+
+.banner-text h1{
+    /*text-shadow: 2px 2px white;*/
+}
+
+.content{
+    /*position: relative;*/
+    /*z-index: -1;*/
+}
+
+.column{
+    height: 490px;
+    width: 48%;
+    /* background-color: #e9aa4b; */
+    border: 3px solid #1d8df0; /*twitter blue*/
+    /* position: absolute; */
+    margin: 9px;
+    float: left;
+    background-color: #ede5ce;
+}
+
+.col-img{
+    width: 300px;
+    height: 400px;
+    padding-left: 147px;
+    padding-top: 20px;
+}
+
+.col-2{
+    right: 0;
+    text-align: justify;
+}
+
+.col-2 p{
+    text-align: justify;
+    padding: 50px;
+    /*border: 2px solid green;*/
+}
+
+.footer{
+    height: 120px;
+    width: 100%;
+    background-color: #689681; /*soft green*/
+    /* margin-top: 626px; */
+    /* position: static; */
+    float: left;
+    
+}
+
+.footer-col{
+    width: 32.3%;
+    display: inline-block;
+    text-align: center;
+    line-height: 88px;
+}
+
+.fa-facebook-square{
+    color: #2d4585; /*facebook blue*/
+}
+
+.fa-instagram{
+    color: green;
+    padding: 10px;
+}
+
+.fa-twitter{
+    color: #1d8df0; /*twitter blue*/
+}
+
+.copywrite{
+    color: black;
+}
+
+
+/***************Style Ends Here*******************/
